@@ -11,7 +11,6 @@ export default function TableCoin({ coins, search }) {
             coin.symbol.toLowerCase().includes(search.toLowerCase())
     )
 
-
     return (
         <table className="table table-dark mt-4 table-hover">
             <thead>
