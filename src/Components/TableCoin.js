@@ -1,9 +1,9 @@
 import React from 'react';
 import CoinRow from './CoinRow';
 
-export default function TableCoin({ coins }) {
-    const titles = ["#", "Coins", "Price", "Price Change", "24 Volum"];
 
+export default function TableCoin({ coins, }) {
+    const titles = ["#", "Coins", "Price", "Price Change", "24 Volum"];
     return (
         <table className="container table table-dark table-hover">
             <thead >

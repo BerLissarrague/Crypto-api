@@ -21,6 +21,7 @@ function App() {
       <TableCoin coins={coins} />
     </div>
 
+
   );
 }
 
