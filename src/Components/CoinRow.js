@@ -3,8 +3,8 @@ import React from 'react'
 export default function CoinRow({ coin, index }) {
     console.log(coin, index)
     return (
-        < tr >
-            <td>{index}</td>
+        <tr>
+            <td >{index}</td>
             <td>
                 <img
                     src={coin.image}
@@ -15,7 +15,7 @@ export default function CoinRow({ coin, index }) {
                 <span>{coin.name}</span>
             </td>
             <td>{coin.current_price}</td>
-            <td>{coin.price_change_precentage_24h}</td>
+            <td>{coin.price_change_percentage_24h}</td>
             <td>{coin.total_volume}</td>
         </tr>
     )
