@@ -17,7 +17,10 @@ function App() {
     getData();
   }, []);
   return (
-    <TableCoin coins={coins} />
+    <div className="container">
+      <TableCoin coins={coins} />
+    </div>
+
   );
 }
 
