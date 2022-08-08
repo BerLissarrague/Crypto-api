@@ -1,10 +1,10 @@
 import React from 'react'
 
 export default function CoinRow({ coin, index }) {
-    console.log(coin, index)
+
     return (
-        < tr >
-            <td>{index}</td>
+        <tr>
+            <td >{index}</td>
             <td>
                 <img
                     src={coin.image}
