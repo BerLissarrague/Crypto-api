@@ -13,7 +13,6 @@ function App() {
     );
     console.log(res.data);
     setCoins(res.data);
-
   };
 
   useEffect(() => {
