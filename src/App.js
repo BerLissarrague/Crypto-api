@@ -18,11 +18,13 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
+  
+  console.log(search)
   return (
     <div className="container">
       <div className="row">
-       <input type="text" placeholder="Buscador de Crypto Monedas" className="form-control bg-dark text-light border-0 mt-4 text-center"
-       onChange={e=>setSearch(e.target.value)}/>
+       <input type="text" placeholder="Buscador de Crypto Monedas" className="form-control bg-dark text-light border-0 mt-4 mb-4 text-center"
+       onChange={(e)=> setSearch(e.target.value)}/>
         <TableCoin coins={coins} search={search}/>
       </div>
     </div>
