@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Crypto-api/static/css/main.5d6cce6e.css",
-    "main.js": "/Crypto-api/static/js/main.c99d7977.js",
+    "main.js": "/Crypto-api/static/js/main.bd1baaa4.js",
     "static/js/787.0fbd45bd.chunk.js": "/Crypto-api/static/js/787.0fbd45bd.chunk.js",
     "index.html": "/Crypto-api/index.html",
     "main.5d6cce6e.css.map": "/Crypto-api/static/css/main.5d6cce6e.css.map",
-    "main.c99d7977.js.map": "/Crypto-api/static/js/main.c99d7977.js.map",
+    "main.bd1baaa4.js.map": "/Crypto-api/static/js/main.bd1baaa4.js.map",
     "787.0fbd45bd.chunk.js.map": "/Crypto-api/static/js/787.0fbd45bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d6cce6e.css",
-    "static/js/main.c99d7977.js"
+    "static/js/main.bd1baaa4.js"
   ]
 }
