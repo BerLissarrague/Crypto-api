@@ -10,9 +10,9 @@ export default function TableCoin({ coins, search}) {
     return (
         <table className="container table table-dark table-hover">
             <thead >
-                <tr>
+                <tr >
                     {titles.map((title) => (
-                        <td>{title}</td>
+                        <td key={title}>{title}</td>
                     ))}
                 </tr>
             </thead>
